@@ -329,8 +329,8 @@ html, body {
     padding: 85px 0px;
 }
 #client-testimonial .testimonial-wrap{
-    width: 33%;
-    float: left;
+/*    width: 33%;
+    float: left;*/
 }
 #client-testimonial .bx-wrapper .bx-viewport{
         -moz-box-shadow: 0 0 0px #ccc;
@@ -342,7 +342,7 @@ html, body {
     padding: 85px 0px 0px
 }
 #client-testimonial .bx-wrapper .bx-pager{
-	display: none;
+
 }
 #client-testimonial .bx-wrapper .bx-pager.bx-default-pager a {
     background: #d8d8d8c !important;

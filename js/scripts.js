@@ -5,9 +5,10 @@ $('body').scrollspy({
 });
 $(document).ready(function(){
     $('.bxslider').bxSlider({
-      mode: 'horizontal',
-      captions: true,
-      maxSlides: 2
+    slideWidth: 400,
+    minSlides: 1,
+    maxSlides: 3,
+    slideMargin: 10
     });
 });
 /* smooth scrolling sections */
