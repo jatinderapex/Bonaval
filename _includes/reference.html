@@ -1,0 +1,17 @@
+<div class="text-center references">
+  <div class="panel panel-default slideInLeft animate">
+    <div class="panel-body text-center">
+      <div style="position:relative; padding:0; display:inline-block; width: 250px;">
+        <img style="width: 250px; height: 280px; max-width: 100%;" src="/img/{{ include.img }}">
+        <div class="pricetag">
+          <span itemprop="priceCurrency" content="EUR">€</span>
+          <span itemprop="price" content="{{ include.price }}">{{ include.price }}</span>
+        </div>
+      </div>
+    </div>
+    <div class="panel-heading references">
+      <p style="font-size:20px;">Beispielhafte Kredithöhe</p>
+      <p style="font-size:20px;"><b>{{ include.description }}</b></p>
+    </div>
+  </div>
+</div>

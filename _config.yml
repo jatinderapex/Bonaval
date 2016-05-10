@@ -1,0 +1,32 @@
+# ----------------------- #
+#      Main Configs       #
+# ----------------------- #
+
+url: https://www.bonaval.de
+title: BonaVal.de | Kostenloser Pfandkreditvergleich
+email: info@bonaval.de
+author: BonaVal.de
+description: BonVal ist Ihr fairer, unabhängiger und kostenloser Vergleich von Pfandkrediten. Finden sie den besten Pfandkredit mit BonaVal.
+
+# ----------------------- #
+#    Jekyll & Plugins     #
+# ----------------------- #
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+# ----------------------- #
+#   3rd Party Settings    #
+# ----------------------- #
+
+# gems:
+#   - jekyll-sitemap
+
+# social:
+#   - title: twitter
+#     url: https://twitter.com/SBootstrap
+#   - title: github
+#     url: https://github.com/IronSummitMedia/startbootstrap
+#   - title: linkedin
+#     url:

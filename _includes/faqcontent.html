@@ -1,0 +1,50 @@
+<section class="background1 vertical-center" id="seoheader">
+  <div class="container">
+    <div class="jumbotron" style="background-color:rgba(0,0,0,0.25);">
+      <h1 class="lato text-center hidden-xs" style="font-size:39px;">
+        {{ page.SEOtitle }}
+			</h1>
+      <h1 class="lato text-center hidden-sm hidden-md hidden-lg" style="font-size:32x;">
+        {{ page.SEOtitle }}
+			</h1>
+    </div>
+    <div class="row text-center" style="margin-top:5%;">
+			<a href="/app/input/new" class="hidden-xs btn btn-cta btn-lg btn-huge lato"><b>Jetzt kostenlos vergleichen!</b></a>
+			<a href="/app/input/new" class="hidden-sm hidden-md hidden-lg btn btn-cta btn-lg btn-huge lato"><b>Jetzt kostenlos vergleichen!</b></a>
+		</div>
+  </div>
+</section>
+<section id="seocontent">
+  <div class="container">
+    <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+      {% for faqItem in page.faqItems %}
+      <div class="panel panel-default">
+        {% if forloop.index == 1 %}
+          {% assign classCollapsed = '' %}
+          {% assign classIn = 'in' %}
+        {% else %}
+          {% assign classCollapsed = 'collapsed' %}
+          {% assign classIn = '' %}
+        {% endif %}
+        <div class="panel-heading" role="tab" id="heading{{ forloop.index }}">
+          <h4 class="panel-title">
+            <a class="{{ classCollapsed }}" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapse{{ forloop.index }}" aria-controls="collapse{{ forloop.index }}">
+              {{ faqItem.title }}
+            </a>
+          </h4>
+        </div>
+        <div id="collapse{{ forloop.index }}" class="panel-collapse collapse {{ classIn }}" role="tabpanel" aria-labelledby="heading{{ forloop.index }}">
+          <div class="panel-body">
+            {{ faqItem.content }}
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="row text-center" style="margin-top:5%;">
+			<a href="/app/input/new" class="hidden-xs btn btn-cta btn-lg btn-huge lato"><b>Jetzt kostenlos vergleichen!</b></a>
+			<a href="/app/input/new" class="hidden-sm hidden-md hidden-lg btn btn-cta btn-lg btn-huge lato"><b>Jetzt kostenlos vergleichen!</b></a>
+		</div>
+  </div>
+  </div>
+</section>

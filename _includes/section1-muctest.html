@@ -1,0 +1,79 @@
+<section class="background1 vertical-center1" id="section1">
+	<div class="vertical-center2">
+		<div class="container bottompadding" style="padding-bottom:190px">
+      <div class="container">
+        <div id="main-callout" class="jumbotron" style="background-color:rgba(0,0,0,0.25); margin-bottom: 2%;">
+          <div style="float:right; position:relative;">
+            <div id="pawn-siegel" class="visible-xs-block" style="position:absolute; top:-60px; left:-70px;">
+              <img style="width:85px;" src="/img/siegel.png"/>
+            </div>
+            <div class="hidden-xs" style="position:absolute; top:-120px; left:-75px;">
+              <img style="width:150px;" src="/img/siegel.png"/>
+            </div>
+          </div>
+          <div style="clear:both;"></div>
+          <h1 class="lato text-center" style="margin-bottom:30px;">
+            Jetzt den besten Pfandkredit in München finden
+			    </h1>
+          <div class="text-center" style="margin-bottom:20px;">
+            <h3 class="lato" style="margin-bottom:20px;">
+              Welchen Wertgegenstand möchten Sie beleihen?
+            </h3>
+            <div style="display: inline-block; max-width:440px;">
+              <select id="value-type-select" class="lato form-control" style="color:#000; font-size: 24px; display: inline-block; height:48px;">
+                <option value="0">Uhr</option>
+                <option value="1">Schmuck</option>
+                <option value="2">Edelmetalle</option>
+                <option value="3">Edelsteine</option>
+                <option value="4">Fahrzeuge</option>
+                <option value="5">Kunst</option>
+                <option value="6">Sonstiges</option>
+              </select>
+              <script>
+               function bvLandingPageOnCtaSubmit() {
+                 try {
+                   window.location = "https://www.bonaval.de/app/input/details/" + $("#value-type-select")[0].value;
+                 } catch (e) {
+                   console.log(e);
+                   window.location = "https://www.bonaval.de/app/input/new";
+                 }
+               }
+              </script>
+              <div class="text-center" style="margin-top:30px; margin-bottom:-10px;">
+			          <a href="#" onclick='bvLandingPageOnCtaSubmit();' style="width:100%;" class="hidden-xs btn btn-cta btn-lg btn-huge lato"><b>Jetzt kostenlos vergleichen!</b></a>
+								<a href="#" onclick='bvLandingPageOnCtaSubmit();' style="width:100%;" class="hidden-sm hidden-md hidden-lg btn btn-cta btn-lg lato"><b>Jetzt kostenlos vergleichen!</b></a>
+		          </div>
+            </div>
+		      </div>
+        </div>
+	    </div>
+    </div>
+    <div class="text-center hidden-xs" id="abs_icons">
+		  <div class="icon_top_space lato">
+			  <ul class="items_icon">
+				  <li><a href="/app/input/details/0"><div class="items_icon0" alt="Uhren"></div></a></li>
+				  <li><a href="/app/input/details/1"><div class="items_icon1" alt="Schmuck"></div></a></li>
+				  <li><a href="/app/input/details/2"><div class="items_icon2" alt="Edelmetalle"></div></a></li>
+				  <li><a href="/app/input/details/3"><div class="items_icon3" alt="Edelsteine"></div></a></li>
+				  <li><a href="/app/input/details/4"><div class="items_icon4" alt="Fahrzeuge"></div></a></li>
+				  <li><a href="/app/input/details/5"><div class="items_icon5" alt="Kunst"></div></a></li>
+				  <li><a href="/app/input/details/6"><div class="items_icon6" alt="Elektronik und Sonstiges"></div></a></li>
+			  </ul>
+			  <div class="hover-label-items">
+				  <div class="default">
+					  Pfandkredite erhalten Sie für viele Wertgegenstände.
+				  </div>
+			  </div>
+			  <div>
+				  <a href="#section2" style="display:block;height:60px">
+					  <div class="scroll-down bounceInDown animated">
+					    <span>
+					      <i class="fa fa-angle-down fa-2x"></i>
+					    </span>
+					  </div>
+				  </a>
+				</div>
+		  </div>
+    </div>
+  </div>
+</section>

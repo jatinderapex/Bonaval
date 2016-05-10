@@ -1,0 +1,22 @@
+<section class="background1 vertical-center" id="seoheader">
+  <div class="container">
+    <div class="jumbotron" style="background-color:rgba(0,0,0,0.25);">
+      <h1 class="lato text-center hidden-xs" style="font-size:39px;">
+        {{ page.SEOtitle }}
+			</h1>
+      <h1 class="lato text-center hidden-sm hidden-md hidden-lg" style="font-size:32x;">
+        {{ page.SEOtitle }}
+			</h1>
+    </div>
+    <div class="row text-center" style="margin-top:5%;">
+			<a href="/app/input/new" class="hidden-xs btn btn-cta btn-lg btn-huge lato"><b>Jetzt kostenlos vergleichen!</b></a>
+			<a href="/app/input/new" class="hidden-sm hidden-md hidden-lg btn btn-cta btn-lg btn-huge lato"><b>Jetzt kostenlos vergleichen!</b></a>
+		</div>
+  </div>
+</section>
+<section id="seocontent">
+  <div class="container">
+    {{ page.SEOcontent | markdownify }}
+    {{ page.SEOHTMLcontent }}
+  </div>
+</section>
