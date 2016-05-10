@@ -131,6 +131,7 @@ html, body {
     background-repeat: no-repeat;
     background-position: 95% 50%;
     cursor: pointer;
+    background: #fff;
 }
 #form-wrapper input[type=submit]{
     height: 50px;
