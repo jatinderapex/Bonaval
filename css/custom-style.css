@@ -19,6 +19,7 @@ html, body {
 }
 #page-wrap{
     font-family: 'Montserrat', sans-serif;
+    height: 100%;
 }
 #page-wrap a:hover{
     text-decoration: none !important;
