@@ -642,11 +642,15 @@ background-color: #3b5998
 	padding: 10px 12px;
 	font-size: 12px;
 }
+#gets-wrap,#loans-wrap{
+    padding: 45px 0px;
+}
 }
 @media (max-width: 480px){
 .navbar-collapse {
     position: absolute;
     width: 300px;
+}
 }
 @media (min-width: 768px) and (max-width: 991px){
 		.inner-benefits-wrap{
