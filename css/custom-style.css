@@ -317,7 +317,10 @@
     border: 5px solid #fff; */
 }
 #client-testimonial .bx-wrapper .bx-viewport{
-      padding: 85px 0px;  
+    padding: 85px 0px 0px
+}
+#client-testimonial .bx-wrapper .bx-pager{
+	display: none;
 }
 #client-testimonial .bx-wrapper .bx-pager.bx-default-pager a {
     background: #d8d8d8c !important;
@@ -568,6 +571,22 @@ background-color: #3b5998
 #client-testimonial .testimonial-wrap {
     width: 100%;
     padding: 30px 0px;
+}
+#benefits-mid-section {
+    min-height: auto;
+    border: none;
+    width: auto;
+    border-radius: 0%;
+    margin-top: 0px; 
+    padding-top: 0px; 
+   display: inline-block; 
+}
+#benefits-mid-section  img{
+	width: 70px;
+}
+.cta {
+	padding: 10px 12px;
+	font-size: 12px;
 }
 }
 @media (min-width: 768px) and (max-width: 991px){
