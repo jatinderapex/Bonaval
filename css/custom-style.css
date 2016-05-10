@@ -14,6 +14,9 @@
   font-weight: normal;
   font-style: normal;
 }
+html, body {
+    height: 100%;
+}
 #page-wrap{
     font-family: 'Montserrat', sans-serif;
 }
@@ -90,6 +93,7 @@
     background-size: cover;
     background-position: 100% 100%;
     background-position: center top;
+    height: 100%;
 }
 .banner-wrap-iner{
         padding: 130px 0px 0px;
@@ -474,6 +478,7 @@ background-color: #3b5998
     bottom: 0;
     background-color: rgba(0,0,0,0.5);
         overflow: hidden;
+           height: 100%;
 }
 @media (max-width: 767px){
 #page-wrap h1 {
