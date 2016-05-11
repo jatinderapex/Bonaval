@@ -482,6 +482,23 @@ background-color: #3b5998
         overflow: hidden;
            height: 100%;
 }
+#client-testimonial .flexslider .slides img {
+    width: auto;
+}
+#client-testimonial .flexslider{
+    margin-top: 45px;
+    margin-bottom: 0px;
+}
+#client-testimonial .flex-direction-nav {
+    display: none;
+}
+#client-testimonial .flex-control-paging li a{
+    background: #666
+}
+
+#client-testimonial .flex-control-paging li a.flex-active{
+    background: #ff8b00 !important;
+}
 @media (max-width: 767px){
 #page-wrap h1 {
     font-size: 28px;

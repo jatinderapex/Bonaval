@@ -5,11 +5,20 @@ $('body').scrollspy({
 });
 $(document).ready(function(){
     $('.bxslider').bxSlider({
-    slideWidth: 400,
+    slideWidth: 355,
     minSlides: 1,
-    maxSlides: 3,
-    slideMargin: 10
+    maxSlides: 3
     });
+
+
+  $('.flexslider').flexslider({
+    animation: "slide",
+    animationLoop: false,
+    itemWidth: 355,
+    minItems: 1,
+    maxItems: 3
+  });
+
 });
 /* smooth scrolling sections */
 $('a[href*=#]').click(function() {
