@@ -11,7 +11,8 @@ $(document).ready(function(){
     itemWidth: 355,
     minItems: 1,
     maxItems: 3,
-  move: 1
+  move: 1,
+   slideshow: 1
   });
 
 });
