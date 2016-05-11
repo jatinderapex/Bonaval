@@ -9,17 +9,31 @@ permalink: /landing-page-2/
 <div id="head-wrap">
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-3 col-xs-12">
+			<div class="col-sm-3 col-xs-6">
 				<div id="logo">
 					<a href="/"><img src="{{site.baseurl}}/img/bonaval-logo.png"></a>
 				</div><!--end of logo -->
 			</div>
-			<div class="col-sm-6 col-md-6 col-lg-4 col-xs-12 page-links">
-				<ul>
+			<div class="col-sm-6 col-md-6 col-lg-4 col-xs-6 page-links">
+		      <nav class="navbar navbar-default" role="navigation">
+		        <!-- Brand and toggle get grouped for better mobile display -->
+		        <div class="navbar-header">
+		          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#jb-navbar-collapse">
+		            <span class="sr-only">Toggle navigation</span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		            <span class="icon-bar"></span>
+		          </button>
+		        </div>
+		        <!-- Collect the nav links, forms, and other content for toggling -->
+		        <div class="collapse navbar-collapse" id="jb-navbar-collapse">
+		          <ul class="nav navbar-nav">
 					<li><a href="#">Kredit</a></li>
 					<li><a href="#">Verkauf</a></li>
 					<li><a href="#" id="login-btn">Login</a></li>
-				</ul>
+		          </ul>
+		        </div><!-- /.navbar-collapse -->
+		      </nav>
 			</div><!-- end of page-links -->
 		</div>
 	</div>
@@ -61,6 +75,7 @@ permalink: /landing-page-2/
 	</div><!-- end of overlay -->
 </div><!-- end of banner-overlay -->
 </div><!-- end of banner-wrap -->
+
 <div id="benefits-wrap">
 	<div id="benefits-top-wrap">
 			<div class="col-sm-1 col-xs-12"></div>
@@ -112,7 +127,18 @@ permalink: /landing-page-2/
 				<p class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus placerat dapibus. Quisque eget nibh<br>nec risus hendrerit malesuada a quis orci.</p>
 			</div>
 			<div class="row">
-				<div class="col-sm-4 col-xs-12">
+
+				<div class="col-sm-4 col-sm-push-4 col-xs-12 ">
+					<div class="benefits-inner-wrap text-center">
+						<div id="benefits-mid-section">
+							<img src="{{site.baseurl}}/img/cash-icon.png">
+							<h4>Schnelles Bargeld</h4>
+							<p>noch am gleichen Tag</p>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-4  col-sm-pull-4 col-xs-6">
 					<div class="benefits-inner-wrap text-center">
 						<img src="{{site.baseurl}}/img/condition-icon.png">
 						<h4>Top Konditionen</h4>
@@ -124,16 +150,8 @@ permalink: /landing-page-2/
 						<p>gesetzliche Regulierung der Pfandleihe</p>
 					</div>
 				</div>
-				<div class="col-sm-4 col-xs-12">
-					<div class="benefits-inner-wrap text-center">
-						<div id="benefits-mid-section">
-							<img src="{{site.baseurl}}/img/cash-icon.png">
-							<h4>Schnelles Bargeld</h4>
-							<p>noch am gleichen Tag</p>
-						</div>
-					</div>
-				</div>
-				<div class="col-sm-4 col-xs-12">
+
+				<div class="col-sm-4 col-xs-6">
 					<div class="benefits-inner-wrap text-center">
 						<img src="{{site.baseurl}}/img/discreet.png">
 						<h4>Diskret</h4>
@@ -265,72 +283,34 @@ permalink: /landing-page-2/
 			<h3 class="text-center">Das sagen unsere Kunden</h3>
 		</div>
 		<div class="row">
-			<ul class="bxslider">
-			  <li><!-- content for first slide -->
+			<div class="flexslider">
+			<ul class="slides">
+			  <li>
 			  	<div class="testimonial-wrap text-center">
 			  		<img src="{{site.baseurl}}/img/author1.png" class="center-block img-responsive">
 			  		<p>BonaVal war sehr einfach zu benutzen. Ich habe<br>meine Angebote innerhalb weniger Stunden<br>bekommen, zusammen mit einfachen<br>Erklärungen wie ich an das Geld gelange.</p>
 			  		<span class="author-name">Gisela</span>
 			  		<span class="author-company">SCHWABING/MÜNCHEN</span>
 			  	</div>
-			  	<div class="testimonial-wrap text-center">
-			  		<img src="{{site.baseurl}}/img/author2.png" class="center-block img-responsive">
-			  		<p>“Als ein Großkunde meines Malerbetriebs seine<br>Rechnung nicht bezahlte, half mir BonaVal schnell und<br> unkompliziert Bargeld für mein Zweitauto zu erhalten.<br>Damit konnte ich meine Mitarbeiter bezahlen.”</p>
-			  		<span class="author-name">Thomas</span>
-			  		<span class="author-company">BREMEN</span>
-			  	</div>
+			  	</li>
+			  	<li>
+				  	<div class="testimonial-wrap text-center">
+				  		<img src="{{site.baseurl}}/img/author2.png" class="center-block img-responsive">
+				  		<p>“Als ein Großkunde meines Malerbetriebs seine<br>Rechnung nicht bezahlte, half mir BonaVal schnell und<br> unkompliziert Bargeld für mein Zweitauto zu erhalten.<br>Damit konnte ich meine Mitarbeiter bezahlen.”</p>
+				  		<span class="author-name">Thomas</span>
+				  		<span class="author-company">BREMEN</span>
+				  	</div>
+			  </li>
+			  <li>
 			  	<div class="testimonial-wrap text-center">
 			  		<img src="{{site.baseurl}}/img/author3.png" class="center-block img-responsive">
 			  		<p>“As a major customer of my Malerbetriebs his bill<br>is not paid, helped me Bonaval quickly and easily<br> cash for my second car to get. So that I could<br>pay my employees.”</p>
 			  		<span class="author-name">Jordan</span>
 			  		<span class="author-company">BREMEN</span>
 			  	</div>
-			  </li><!-- first slide ends here -->
-
-
-			  	<li><!-- content for second slide -->
-			  	<div class="testimonial-wrap text-center">
-			  		<img src="{{site.baseurl}}/img/author1.png" class="center-block img-responsive">
-			  		<p>BonaVal war sehr einfach zu benutzen. Ich habe<br>meine Angebote innerhalb weniger Stunden<br>bekommen, zusammen mit einfachen<br>Erklärungen wie ich an das Geld gelange.</p>
-			  		<span class="author-name">Gisela</span>
-			  		<span class="author-company">SCHWABING/MÜNCHEN</span>
-			  	</div>
-			  	<div class="testimonial-wrap text-center">
-			  		<img src="{{site.baseurl}}/img/author2.png" class="center-block img-responsive">
-			  		<p>“Als ein Großkunde meines Malerbetriebs seine<br>Rechnung nicht bezahlte, half mir BonaVal schnell und<br>unkompliziert Bargeld für mein Zweitauto zu erhalten.<br>Damit konnte ich meine Mitarbeiter bezahlen.”</p>
-			  		<span class="author-name">Thomas</span>
-			  		<span class="author-company">BREMEN</span>
-			  	</div>
-			  	<div class="testimonial-wrap text-center">
-			  		<img src="{{site.baseurl}}/img/author3.png" class="center-block img-responsive">
-			  		<p>“As a major customer of my Malerbetriebs his bill<br>is not paid, helped me Bonaval quickly and easily<br>cash for my second car to get. So that I could<br>pay my employees.”</p>
-			  		<span class="author-name">Jordan</span>
-			  		<span class="author-company">BREMEN/span>
-			  	</div>
-			  </li><!-- second slide ends here -->
-
-			  	<li><!-- content for third slide -->
-			  	<div class="testimonial-wrap text-center">
-			  		<img src="{{site.baseurl}}/img/author1.png" class="center-block img-responsive">
-			  		<p>BonaVal war sehr einfach zu benutzen. Ich habe<br>meine Angebote innerhalb weniger Stunden<br>bekommen, zusammen mit einfachen<br>Erklärungen wie ich an das Geld gelange.</p>
-			  		<span class="author-name">Gisela</span>
-			  		<span class="author-company">SCHWABING/MÜNCHEN</span>
-			  	</div>
-			  	<div class="testimonial-wrap text-center">
-			  		<img src="{{site.baseurl}}/img/author2.png" class="center-block img-responsive">
-			  		<p>“Als ein Großkunde meines Malerbetriebs seine<br>Rechnung nicht bezahlte, half mir BonaVal schnell und<br> unkompliziert Bargeld für mein Zweitauto zu erhalten.<br>Damit konnte ich meine Mitarbeiter bezahlen.”</p>
-			  		<span class="author-name">Thomas</span>
-			  		<span class="author-company">BREMEN</span>
-			  	</div>
-			  	<div class="testimonial-wrap text-center">
-			  		<img src="{{site.baseurl}}/img/author3.png" class="center-block img-responsive">
-			  		<p>“As a major customer of my Malerbetriebs his bill<br>is not paid, helped me Bonaval quickly and easily<br>cash for my second car to get. So that I could<br>pay my employees.”</p>
-			  		<span class="author-name">Jordan</span>
-			  		<span class="author-company">BREMEN/span>
-			  	</div>
-			  </li><!-- third slide ends here -->
-
+			  </li>
 			</ul>
+		</div>
 		</div>
 	</div>
 </div><!-- end of client-testimonial -->

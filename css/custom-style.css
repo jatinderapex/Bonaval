@@ -661,6 +661,9 @@ background-color: #3b5998
 .benefits-inner-wrap{
     min-height: 170px;
 }
+#client-testimonial .flexslider {
+    margin-top: 10px;
+}
 }
 @media (max-width: 480px){
 .navbar-collapse {

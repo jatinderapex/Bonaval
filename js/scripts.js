@@ -4,16 +4,10 @@ $('body').scrollspy({
     offset: 52
 });
 $(document).ready(function(){
-    $('.bxslider').bxSlider({
-    slideWidth: 355,
-    minSlides: 1,
-    maxSlides: 3
-    });
-
 
   $('.flexslider').flexslider({
     animation: "slide",
-    animationLoop: false,
+    animationLoop: true,
     itemWidth: 355,
     minItems: 1,
     maxItems: 3
