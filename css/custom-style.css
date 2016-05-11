@@ -127,6 +127,7 @@ html, body {
     font-size: 13px;
     margin-right: 5px;
     -webkit-appearance: none;
+    -moz-appearance: none;
     background-image: url(../img/select-arrow.png);
     background-repeat: no-repeat;
     background-position: 95% 50%;
