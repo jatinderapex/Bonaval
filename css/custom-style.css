@@ -499,6 +499,19 @@ background-color: #3b5998
 #client-testimonial .flex-control-paging li a.flex-active{
     background: #ff8b00 !important;
 }
+#page-wrap .navbar-default .navbar-toggle {
+    border-color: #121e2a;
+}
+#page-wrap.navbar-default .navbar-toggle .icon-bar {
+    background-color: #121e2a;
+}
+#page-wrap .navbar-default .navbar-toggle:focus, #page-wrap  .navbar-default .navbar-toggle:hover {
+    background-color: #121e2a;
+}
+#page-wrap  .navbar-default .navbar-toggle:hover .icon-bar  {
+        background-color: #FFF;
+}
+
 @media (max-width: 767px){
 #page-wrap h1 {
     font-size: 28px;
@@ -507,8 +520,10 @@ background-color: #3b5998
     font-size: 26px;
 }
 #page-wrap h1,#page-wrap h4{
-    font-size: 16px;
     font-weight: normal;
+}
+#page-wrap h4{
+    font-size: 16px;
 }
 #page-wrap p {
     font-size: 13px;
