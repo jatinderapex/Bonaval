@@ -490,6 +490,7 @@ background-color: #3b5998
     font-size: 26px;
 }
 #page-wrap h1,#page-wrap h4{
+    font-size: 16px;
     font-weight: normal;
 }
 #page-wrap p {
@@ -627,13 +628,8 @@ background-color: #3b5998
     padding: 30px 0px;
 }
 #benefits-mid-section {
-    min-height: auto;
-    border: none;
-    width: auto;
-    border-radius: 0%;
-    margin-top: 0px; 
-    padding-top: 0px; 
-   display: inline-block; 
+    min-height: 200px;
+    width: 200px;
 }
 #benefits-mid-section  img{
 	width: 70px;
@@ -642,8 +638,11 @@ background-color: #3b5998
 	padding: 10px 12px;
 	font-size: 12px;
 }
-#gets-wrap,#loans-wrap{
+#gets-wrap,#loans-wrap,#benefits-bottom-wrap,#client-testimonial{
     padding: 45px 0px;
+}
+.benefits-inner-wrap{
+    min-height: 170px;
 }
 }
 @media (max-width: 480px){
