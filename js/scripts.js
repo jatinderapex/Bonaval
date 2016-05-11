@@ -10,7 +10,8 @@ $(document).ready(function(){
     animationLoop: true,
     itemWidth: 355,
     minItems: 1,
-    maxItems: 3
+    maxItems: 3,
+  move: 1
   });
 
 });

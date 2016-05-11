@@ -679,6 +679,9 @@ background-color: #3b5998
 #client-testimonial .flexslider {
     margin-top: 10px;
 }
+.flexslider .slides > li{
+
+}
 }
 @media (max-width: 480px){
 .navbar-collapse {
