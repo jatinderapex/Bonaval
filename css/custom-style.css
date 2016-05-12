@@ -654,13 +654,12 @@ background-color: #3b5998
 .page-links .navbar-collapse {
     position: absolute;
     width: 350px;
-    transition: 0.5s;
     z-index: 999998;
     right: 0px;
     margin-top: 10px;
     background: rgba(0,0,0,0.7);
     border-color: transparent;
-    border: none;;
+    border: none;
 }
 .page-links .navbar-default .navbar-nav>li>a{
         color: #fff;
