@@ -15,6 +15,15 @@ $(document).ready(function(){
    slideshow: 1
   });
 
+$(window).scroll(function() {
+if ($(this).scrollTop() > 1){  
+    $('#head-wrap').addClass("sticky");
+  }
+  else{
+    $('#head-wrap').removeClass("sticky");
+  }
+});
+  
 });
 /* smooth scrolling sections */
 $('a[href*=#]').click(function() {

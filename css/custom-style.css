@@ -49,6 +49,9 @@ html, body {
 }
 #head-wrap{
     padding: 10px 0px;
+    position: fixed;
+    width:100%;
+    background-color: #fff;
 }
 .page-links{
 	float: right;
@@ -513,7 +516,10 @@ background-color: #3b5998
 #page-wrap  .navbar-default .navbar-toggle:hover .icon-bar  {
         background-color: #FFF;
 }
-
+.sticky {
+    z-index: 9999999999;
+    box-shadow: 1px 1px 10px 1px #aca9a9;
+}
 @media (max-width: 767px){
 #page-wrap h1 {
     font-size: 28px;
