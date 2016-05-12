@@ -706,6 +706,12 @@ background-color: #3b5998
     width: 280px;
 }
 }
+@media (max-width: 370px){
+.navbar-collapse {
+    position: absolute;
+    width: 250px;
+}
+}
 @media (min-width: 768px) and (max-width: 991px){
 		.inner-benefits-wrap{
     text-align: center;;
