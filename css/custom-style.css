@@ -710,6 +710,7 @@ background-color: #3b5998
 .navbar-collapse {
     position: absolute;
     width: 250px;
+    padding: 140px 0px 0px;
 }
 }
 @media (min-width: 768px) and (max-width: 991px){
