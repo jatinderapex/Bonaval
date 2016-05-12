@@ -696,6 +696,9 @@ background-color: #3b5998
 .flexslider .slides > li{
 
 }
+.banner-wrap-iner {
+    padding: 185px 0px 0px;
+}
 }
 @media (max-width: 480px){
 .navbar-collapse {
