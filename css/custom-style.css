@@ -84,7 +84,7 @@ html, body {
     border: none;
     min-height: auto;
     margin-bottom: 0px;
-    margin-top: 18px;
+    margin-top: 30px;
 }
 .page-links .navbar-default .navbar-nav>li>a{
     padding: 0px 20px;
@@ -101,11 +101,13 @@ html, body {
     height: 100%;
 }
 .banner-wrap-iner{
-        padding: 13% 0px 0px;
+    padding: 15% 0% 3% 0%;
+}
+.banner-wrap-iner{
+ 
 }
 #banner-wrap h2{
-    margin-bottom: 10px;
-    margin-top: 8px;
+    margin-top: 12px;
 }
 #banner-wrap #guarantee-img{
     padding-left: 192px;
@@ -118,8 +120,9 @@ html, body {
     margin-top: 0px;
 }
 #form-wrapper{
-    margin-top: 50px;
+
     font-family: 'Montserrat', sans-serif;
+        margin-bottom: 70px;
 }
 #form-wrapper select{
     border: none;
@@ -697,7 +700,7 @@ background-color: #3b5998
 
 }
 .banner-wrap-iner {
-    padding: 160px 0px 0px;
+    padding: 45% 0px 0px;
 }
 }
 @media (max-width: 480px){
@@ -712,7 +715,7 @@ background-color: #3b5998
     width: 280px !important;
 }
 .banner-wrap-iner {
-    padding: 140px 0px 0px;
+    padding: 50% 0px 0px;
 }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -749,18 +752,27 @@ background-color: #3b5998
 .col-sm-3.col-xs-12.inner-benefits-wrap{
 	    width: 20%;
 	}
+.banner-wrap-iner{
+    padding: 16% 0% 3% 0%;
+}
 }
 
 @media (min-width: 1900px){
 #benefits-top-wrap{
-    padding: 25px 120px;
+    padding: 25px 90px;
 }
 .col-sm-3.col-xs-12.inner-benefits-wrap{
 	    width: 20%;
 	}
+.banner-wrap-iner{
+    padding: 17% 0% 3% 0%;
+}
 }
 @media (min-width: 2100px){
 	#benefits-top-wrap {
-    padding: 25px 170px;
+    padding: 25px 150px;
+}
+.banner-wrap-iner{
+    padding: 18% 0% 3% 0%;
 }
 }
