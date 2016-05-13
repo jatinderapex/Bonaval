@@ -472,8 +472,8 @@ background-color: #3b5998
     background-position: center top !important;
 }
 .lp2-banner-wrap #head-wrap{
-    background:#fff;
-    margin: 10px;
+    background: #fff;
+    margin: 10px 14px
 }
 .lp2-banner-wrap #overlay {
     background-color: rgba(0,0,0,0);
@@ -532,6 +532,9 @@ background-color: #3b5998
 #lender-wrap .cta{
     box-shadow: 0px 2px 2px 0px #404a57;
 }
+    .lp2-banner-wrap #head-wrap{
+        width:98%;
+    }
 @media (max-width: 767px){
 #page-wrap h1 {
     font-size: 28px;
@@ -706,10 +709,17 @@ background-color: #3b5998
     padding: 45% 0px 0px;
 }
 .lp2-banner-wrap #top-heading {
-    padding: 0px 0px 30px 0px;
+    padding: 0px 0px 25px 0px;
 }
 .lp2-banner-wrap #caption-text {
     padding: 5px 0px 0px;
+    }
+.lp2-banner-wrap #head-wrap{
+    background: #fff;
+    margin: 0px
+}
+    .lp2-banner-wrap #head-wrap{
+        width:100%;
     }
 }
 @media (max-width: 480px){
