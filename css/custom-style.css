@@ -541,7 +541,6 @@ margin: 0px !important;
     }
 @media (max-width: 767px){
     #banner-wrap{
-        height: auto;
     }
 #page-wrap h1 {
     font-size: 28px;
@@ -755,7 +754,7 @@ margin: 0px !important;
     display: block;
 }
     #banner-wrap{
-        height: auto;
+
     }
 	.lp2-banner-wrap #caption-text {
     padding: 5px 0px 20px;
