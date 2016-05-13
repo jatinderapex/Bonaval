@@ -529,6 +529,10 @@ background-color: #3b5998
     z-index: 9999999999;
     box-shadow: 1px 1px 10px 1px #aca9a9;
 }
+.lp2-banner-wrap .sticky{
+margin: 0px !important;
+    width: 100% !important;
+}
 #lender-wrap .cta{
     box-shadow: 0px 2px 2px 0px #404a57;
 }
