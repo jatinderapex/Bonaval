@@ -99,6 +99,8 @@ html, body {
     background-position: 100% 100%;
     background-position: center top;
     height: 100%;
+        display: table;
+    width: 100%;
 }
 .banner-wrap-iner{
     padding: 15% 0% 0% 0%;
