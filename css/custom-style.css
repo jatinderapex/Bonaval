@@ -754,8 +754,12 @@ margin: 0px !important;
 #benefits-top-wrap .benefits-description {
     display: block;
 }
-
-	
+    #banner-wrap{
+        height: auto;
+    }
+	.lp2-banner-wrap #caption-text {
+    padding: 5px 0px 20px;
+    }
 }
 @media (min-width: 992px) and (max-width: 1199px){
 		.inner-benefits-wrap{
