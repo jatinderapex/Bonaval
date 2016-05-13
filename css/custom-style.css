@@ -536,6 +536,9 @@ background-color: #3b5998
         width:98%;
     }
 @media (max-width: 767px){
+    #banner-wrap{
+        height: auto;
+    }
 #page-wrap h1 {
     font-size: 28px;
 }
