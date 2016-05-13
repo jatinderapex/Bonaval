@@ -101,7 +101,7 @@ html, body {
     height: 100%;
 }
 .banner-wrap-iner{
-    padding: 15% 0% 3% 0%;
+    padding: 15% 0% 0% 0%;
 }
 .banner-wrap-iner{
  
@@ -122,7 +122,8 @@ html, body {
 #form-wrapper{
 
     font-family: 'Montserrat', sans-serif;
-        margin-bottom: 70px;
+margin-top:35px;
+margin-bottom: 35px;
 }
 #form-wrapper select{
     border: none;
@@ -468,6 +469,7 @@ background-color: #3b5998
     background: url(../img/lp-bg-2.jpg) no-repeat !important;
     background-size: cover !important;
     background-position: 100% 100%;
+    background-position: center top !important;
 }
 .lp2-banner-wrap #head-wrap{
     background:#fff;
@@ -559,7 +561,8 @@ background-color: #3b5998
     font-size: 24px
 }
 #form-wrapper {
-    margin-top: 30px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 #form-wrapper select {
   width: 85%;
@@ -702,6 +705,12 @@ background-color: #3b5998
 .banner-wrap-iner {
     padding: 45% 0px 0px;
 }
+.lp2-banner-wrap #top-heading {
+    padding: 0px 0px 30px 0px;
+}
+.lp2-banner-wrap #caption-text {
+    padding: 5px 0px 0px;
+    }
 }
 @media (max-width: 480px){
 .navbar-collapse {
@@ -753,7 +762,7 @@ background-color: #3b5998
 	    width: 20%;
 	}
 .banner-wrap-iner{
-    padding: 16% 0% 3% 0%;
+    padding: 16% 0% 0% 0%;
 }
 }
 
@@ -765,7 +774,7 @@ background-color: #3b5998
 	    width: 20%;
 	}
 .banner-wrap-iner{
-    padding: 17% 0% 3% 0%;
+    padding: 17% 0% 0% 0%;
 }
 }
 @media (min-width: 2100px){
@@ -773,6 +782,6 @@ background-color: #3b5998
     padding: 25px 150px;
 }
 .banner-wrap-iner{
-    padding: 18% 0% 3% 0%;
+    padding: 18% 0% 0% 0%;
 }
 }
