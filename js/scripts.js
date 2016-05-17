@@ -6,15 +6,9 @@ $('body').scrollspy({
 $(document).ready(function(){
 
   $('.flexslider').flexslider({
-    animation: "slide",
-    animationLoop: true,
-    itemWidth: 355,
-    minItems: 1,
-    maxItems: 3,
-  move: 1,
-   slideshow: 1,
-    smoothHeight: true
+    animation: "slide"
   });
+
 
 $(window).scroll(function() {
 if ($(this).scrollTop() > 1){  
