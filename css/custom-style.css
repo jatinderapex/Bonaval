@@ -103,10 +103,7 @@ html, body {
     width: 100%;
 }
 .banner-wrap-iner{
-    padding: 15% 0% 0% 0%;
-}
-.banner-wrap-iner{
- 
+    padding-top: 200px
 }
 #banner-wrap h2{
     margin-top: 12px;
@@ -542,8 +539,6 @@ margin: 0px !important;
         width:98%;
     }
 @media (max-width: 767px){
-    #banner-wrap{
-    }
 #page-wrap h1 {
     font-size: 28px;
 }
@@ -712,10 +707,9 @@ margin: 0px !important;
 }
 .flexslider .slides > li{
 
-
 }
-.banner-wrap-iner {
-    padding: 60% 0px 0px;
+.banner-wrap-iner{
+    padding-top: 300px
 }
 .lp2-banner-wrap #top-heading {
     padding: 0px 0px 25px 0px;
@@ -742,9 +736,7 @@ margin: 0px !important;
     position: absolute;
     width: 280px !important;
 }
-.banner-wrap-iner {
-    padding: 60% 0px 0px;
-}
+
 }
 @media (min-width: 768px) and (max-width: 991px){
 		.inner-benefits-wrap{
