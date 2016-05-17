@@ -50,7 +50,7 @@ permalink: /landing-page/
 			<div class="row text-center">
 				<div id="form-wrapper">
 						<form method="POST" action="#">
-							<select onchange="javascript: myFunction();" onclick="javascript: DisablePinchZoom();">
+							<select>
 								<option value="Wertgegenstand">Mein Wertgegenstand</option>
 								<option value="Wertgegenstand">Mein Wertgegenstand</option>
 							</select>
@@ -368,17 +368,3 @@ permalink: /landing-page/
 		</div>
 	</div>
 </div><!-- end of footer-wrap -->
-<script>
-function DisablePinchZoom() 
-{
-    $('meta[name=viewport]').attr("content", "");
-    $('meta[name=viewport]').attr("content", "width=device-width, user-scalable=no");
-}
-
-function myFunction() 
-{
-    $('meta[name=viewport]').attr("content", "width=device-width, user-scalable=yes");
-}
-
-
-</script>
