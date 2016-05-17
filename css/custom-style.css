@@ -736,7 +736,9 @@ margin: 0px !important;
     position: absolute;
     width: 280px !important;
 }
-
+.banner-wrap-iner{
+    padding-top: 215px
+}
 }
 @media (min-width: 768px) and (max-width: 991px){
 		.inner-benefits-wrap{
