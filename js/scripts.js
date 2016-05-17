@@ -24,6 +24,19 @@ if ($(this).scrollTop() > 1){
   }
 });
   
+function DisablePinchZoom() 
+{
+    $('meta[name=viewport]').attr("content", "");
+    $('meta[name=viewport]').attr("content", "width=yourwidth, user-scalable=no");
+}
+
+function myFunction() 
+{
+    $('meta[name=viewport]').attr("content", "width=1047, user-scalable=yes");
+}
+
+
+  
 });
 /* smooth scrolling sections */
 $('a[href*=#]').click(function() {
