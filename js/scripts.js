@@ -12,7 +12,8 @@ $(document).ready(function(){
     minItems: 1,
     maxItems: 3,
   move: 1,
-   slideshow: 1
+   slideshow: 1,
+    smoothHeight: true
   });
 
 $(window).scroll(function() {

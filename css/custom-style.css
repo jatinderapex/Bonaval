@@ -712,9 +712,10 @@ margin: 0px !important;
 }
 .flexslider .slides > li{
 
+
 }
 .banner-wrap-iner {
-    padding: 45% 0px 0px;
+    padding: 75% 0px 0px;
 }
 .lp2-banner-wrap #top-heading {
     padding: 0px 0px 25px 0px;
@@ -742,7 +743,7 @@ margin: 0px !important;
     width: 280px !important;
 }
 .banner-wrap-iner {
-    padding: 50% 0px 0px;
+    padding: 80% 0px 0px;
 }
 }
 @media (min-width: 768px) and (max-width: 991px){
@@ -761,6 +762,9 @@ margin: 0px !important;
 	.lp2-banner-wrap #caption-text {
     padding: 5px 0px 20px;
     }
+    .flexslider .slides > li{
+/*width: 240px !important;*/
+}
 }
 @media (min-width: 992px) and (max-width: 1199px){
 		.inner-benefits-wrap{
