@@ -486,6 +486,35 @@ background-color: #3b5998
 .lp2-banner-wrap #caption-text p{
   color: #fff !important; 
 }
+
+
+/* landing page version 3 styling starts here*/
+.lp3-banner-wrap{
+    padding: 0px 0px 0px 0px !important;
+    background: url(../img/background.jpg) no-repeat !important;
+    background-size: cover !important;
+    background-position: 100% 100%;
+    background-position: center top !important;
+}
+.lp3-banner-wrap #head-wrap{
+    background: #fff;
+    margin: 10px 14px
+}
+.lp3-banner-wrap #overlay {
+    background-color: rgba(0,0,0,0);
+}
+.lp3-banner-wrap #top-heading{
+    padding: 0px 0px 60px 0px;
+}
+.lp3-banner-wrap #caption-text{
+    padding: 15px 0px 0px;
+}
+.lp3-banner-wrap #caption-text p{
+  color: #fff !important; 
+}
+
+
+
 #banner-overlay{
     top: 0;
     left: 0;
@@ -532,15 +561,30 @@ background-color: #3b5998
 margin: 0px !important;
     width: 100% !important;
 }
+
+.lp3-banner-wrap .sticky{
+margin: 0px !important;
+    width: 100% !important;
+}
 #lender-wrap .cta{
     box-shadow: 0px 2px 2px 0px #404a57;
 }
     .lp2-banner-wrap #head-wrap{
         width:98%;
     }
+        .lp3-banner-wrap #head-wrap{
+        width:98%;
+    }
     #client-testimonial-desktop h3{
         margin-bottom: 50px;
     }
+
+    .lp3-banner-wrap .banner-wrap-iner {
+    padding-top: 390px !important;
+}
+#mid-section{
+      padding: 85px 30px;  
+}
 @media (max-width: 767px){
 #page-wrap h1 {
     font-size: 28px;
@@ -727,6 +771,29 @@ margin: 0px !important;
     .lp2-banner-wrap #head-wrap{
         width:100%;
     }
+
+
+
+
+    .lp3-banner-wrap #top-heading {
+    padding: 0px 0px 25px 0px;
+}
+.lp3-banner-wrap #caption-text {
+    padding: 5px 0px 15px;
+    }
+.lp3-banner-wrap #head-wrap{
+    background: #fff;
+    margin: 0px
+}
+    .lp3-banner-wrap #head-wrap{
+        width:100%;
+    }
+    #mid-section{
+      padding: 45px 20px;  
+}
+.lp3-banner-wrap .banner-wrap-iner {
+    padding-top: 250px !important;
+}
 }
 @media (max-width: 480px){
 .navbar-collapse {
@@ -759,8 +826,14 @@ margin: 0px !important;
 	.lp2-banner-wrap #caption-text {
     padding: 5px 0px 20px;
     }
+        .lp3-banner-wrap #caption-text {
+    padding: 5px 0px 20px;
+    }
     .flexslider .slides > li{
 /*width: 240px !important;*/
+}
+.lp3-banner-wrap .banner-wrap-iner {
+    padding-top: 290px !important;
 }
 }
 @media (min-width: 992px) and (max-width: 1199px){
@@ -787,6 +860,9 @@ margin: 0px !important;
 .banner-wrap-iner{
     padding: 16% 0% 0% 0%;
 }
+.lp3-banner-wrap .banner-wrap-iner {
+    padding-top: 512px !important;
+}
 }
 
 @media (min-width: 1900px){
@@ -799,6 +875,9 @@ margin: 0px !important;
 .banner-wrap-iner{
     padding: 17% 0% 0% 0%;
 }
+.lp3-banner-wrap .banner-wrap-iner {
+    padding-top: 512px !important;
+}
 }
 @media (min-width: 2100px){
 	#benefits-top-wrap {
@@ -806,5 +885,8 @@ margin: 0px !important;
 }
 .banner-wrap-iner{
     padding: 18% 0% 0% 0%;
+}
+.lp3-banner-wrap .banner-wrap-iner {
+    padding-top: 512px !important;
 }
 }
